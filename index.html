@@ -384,6 +384,7 @@
   <div class="logo">КИБЕР<span>ЩИТ</span></div>
   <div class="nav-tabs">
     <button class="nav-tab active" onclick="showPage('home', this)">Главная</button>
+    <button class="nav-tab" onclick="showPage('attacks', this)">Кибератаки</button>
     <button class="nav-tab" onclick="showPage('quiz', this)">Тест</button>
   </div>
 </nav>
@@ -530,6 +531,191 @@
   </div>
 </div>
 
+<!-- ATTACKS -->
+<div class="page" id="page-attacks">
+
+  <div class="hero">
+    <div class="hero-label">// школьный проект · 2026</div>
+    <h1>Атаки, которые<br>изменили мир</h1>
+    <p>WannaCry, NotPetya, SolarWinds, Colonial Pipeline — разбор четырёх взломов, суммарный ущерб которых превысил $18 млрд</p>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">$18+&nbsp;млрд</span><span class="stat-label">суммарный ущерб</span></div>
+      <div class="stat"><span class="stat-num">200&nbsp;000+</span><span class="stat-label">заражённых устройств WannaCry</span></div>
+      <div class="stat"><span class="stat-num">18&nbsp;000</span><span class="stat-label">жертв SolarWinds</span></div>
+    </div>
+  </div>
+
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span class="ticker-item">WannaCry — 150 стран, $4 млрд ущерба, патч существовал 2 месяца</span>
+      <span class="ticker-item">NotPetya — $10 млрд, самая дорогая кибератака в истории</span>
+      <span class="ticker-item">SolarWinds — 9 ведомств США, шпионаж длился месяцами незамеченным</span>
+      <span class="ticker-item">Colonial Pipeline — один пароль без 2FA = 5 дней коллапса</span>
+      <span class="ticker-item">60% взломов — следствие необновлённого ПО</span>
+      <span class="ticker-item">82% атак используют человеческий фактор</span>
+      <span class="ticker-item">WannaCry — 150 стран, $4 млрд ущерба, патч существовал 2 месяца</span>
+      <span class="ticker-item">NotPetya — $10 млрд, самая дорогая кибератака в истории</span>
+      <span class="ticker-item">SolarWinds — 9 ведомств США, шпионаж длился месяцами незамеченным</span>
+      <span class="ticker-item">Colonial Pipeline — один пароль без 2FA = 5 дней коллапса</span>
+      <span class="ticker-item">60% взломов — следствие необновлённого ПО</span>
+      <span class="ticker-item">82% атак используют человеческий фактор</span>
+    </div>
+  </div>
+
+  <div class="section">
+
+    <!-- ─── ЧЕТЫРЕ АТАКИ ─────────────────────────────── -->
+    <div class="section-title">Факты о кибератаках</div>
+    <div class="facts-grid">
+
+      <div class="fact-card">
+        <div class="fact-icon">🔒</div>
+        <div class="fact-tag">ransomware · май 2017</div>
+        <h3>WannaCry: 200 000 устройств за 3 дня</h3>
+        <p>Программа-вымогатель использовала эксплойт EternalBlue — уязвимость Windows SMB, похищенную у АНБ США. Распространялась автоматически по сети без участия пользователя. Жертвы: NHS (Великобритания), Deutsche Bahn, Telefónica. Ущерб — $4 млрд.</p>
+        <div class="fact-num">01</div>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-icon">💀</div>
+        <div class="fact-tag">уничтожение данных · июнь 2017</div>
+        <h3>NotPetya: $10 млрд — данные уничтожены навсегда</h3>
+        <p>Замаскирована под вымогателя, но создана для уничтожения данных — расшифровки нет. Стартовала через обновление бухгалтерской программы M.E.Doc. Пользователи сами ставили вирус. Жертвы: Maersk (-$300 млн), Saint-Gobain, «Роснефть».</p>
+        <div class="fact-num">02</div>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-icon">🕵️</div>
+        <div class="fact-tag">шпионаж · 2020</div>
+        <h3>SolarWinds: тихая операция против правительства США</h3>
+        <p>Хакеры внедрили вредоносный код в обновление ПО Orion от SolarWinds. 18 000 организаций получили его как обычное обновление. 9 ведомств США — под контролем злоумышленников месяцами. Ответственность: российская СВР.</p>
+        <div class="fact-num">03</div>
+      </div>
+
+      <div class="fact-card">
+        <div class="fact-icon">⛽</div>
+        <div class="fact-tag">инфраструктура · май 2021</div>
+        <h3>Colonial Pipeline: один пароль — 5 дней без топлива</h3>
+        <p>Хакеры DarkSide вошли через VPN-аккаунт без двухфакторной аутентификации. Трубопровод давал 45% топлива востоку США. 5 дней остановки, 6 штатов в режиме ЧС, выкуп $4,4 млн. Причина: нет 2FA на одном аккаунте.</p>
+        <div class="fact-num">04</div>
+      </div>
+
+    </div>
+
+    <!-- ─── ХРОНОЛОГИЯ ─────────────────────────────── -->
+    <div class="section-title">Хронология событий</div>
+    <div class="news-grid" style="margin-bottom:60px">
+      <div class="news-featured">
+        <div class="news-badge">RANSOMWARE · МАЙ 2017</div>
+        <h3>WannaCry останавливает больницы и железные дороги</h3>
+        <p>За 72 часа заражено 200 000 устройств в 150 странах. NHS Великобритании отменяла операции. Атаку остановил 22-летний исследователь Маркус Хатчинс, зарегистрировав домен за $10,69 — он оказался «аварийным выключателем» в коде вируса. Microsoft выпустила патч ещё за 2 месяца до атаки, но миллионы машин не обновились.</p>
+        <div class="news-meta"><span>📅 Май 2017</span><span>💸 Ущерб: $4 млрд</span></div>
+      </div>
+      <div class="news-list">
+        <div class="news-item">
+          <span class="news-badge">УНИЧТОЖЕНИЕ · ИЮНЬ 2017</span>
+          <h4>NotPetya — самая дорогая атака в истории</h4>
+          <p>Maersk переустановил 45 000 ПК и 4 000 серверов за 10 дней. Суммарный ущерб — $10 млрд. Ответственность: военная разведка России по заявлению США и ЕС.</p>
+        </div>
+        <div class="news-item">
+          <span class="news-badge ai">ШПИОНАЖ · 2020</span>
+          <h4>SolarWinds: обнаружена спустя 9 месяцев</h4>
+          <p>Хакеры читали переписку Минфина и Минторговли США. Атака раскрыта случайно при расследовании взлома компании FireEye.</p>
+        </div>
+        <div class="news-item">
+          <span class="news-badge tips">ЧС · МАЙ 2021</span>
+          <h4>Colonial Pipeline: Байден вводит режим ЧС</h4>
+          <p>Очереди на заправках, дефицит топлива. ФБР впоследствии вернуло $2,3 млн из выплаченных $4,4 млн выкупа.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── ПРИЧИНЫ И ЗАЩИТА (в стиле ai-banner) ─────── -->
+    <div class="section-title">Почему атаки успешны — и как защититься</div>
+    <div class="ai-banner" style="grid-template-columns:1fr 1fr">
+      <div>
+        <h2>Причины взломов</h2>
+        <p>Все четыре атаки объединяет одно: каждую из них можно было предотвратить простыми мерами. Гипотеза исследования подтверждена — большинство атак стали возможны из-за устаревшего ПО и слабых паролей.</p>
+      </div>
+      <div class="ai-items">
+        <div class="ai-item">
+          <div class="ai-item-icon">🔄</div>
+          <div>
+            <h4>Устаревшее ПО (WannaCry, NotPetya)</h4>
+            <p>Патч существовал за 2 месяца. 60% взломов — следствие необновлённых систем. Обновляйте ПО сразу.</p>
+          </div>
+        </div>
+        <div class="ai-item">
+          <div class="ai-item-icon">🔑</div>
+          <div>
+            <h4>Нет 2FA (Colonial Pipeline)</h4>
+            <p>Один пароль без второго фактора — пять дней национального коллапса. Включайте 2FA везде.</p>
+          </div>
+        </div>
+        <div class="ai-item">
+          <div class="ai-item-icon">⛓️</div>
+          <div>
+            <h4>Доверие к поставщикам (SolarWinds, NotPetya)</h4>
+            <p>Угроза пришла через доверенное обновление. Проверяйте всю цепочку поставщиков ПО.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ─── СРАВНИТЕЛЬНАЯ ТАБЛИЦА ─────────────────────── -->
+    <div class="section-title" style="margin-top:60px">Сравнение атак</div>
+    <div style="overflow-x:auto; margin-bottom:60px">
+      <table style="width:100%; border-collapse:collapse; font-size:14px; min-width:600px">
+        <thead>
+          <tr style="border-bottom:1px solid var(--border)">
+            <th style="text-align:left; padding:12px 16px; color:var(--accent); font-family:'Rajdhani',sans-serif; letter-spacing:1px; font-size:12px; text-transform:uppercase; font-weight:700; background:var(--surface)">Атака</th>
+            <th style="text-align:left; padding:12px 16px; color:var(--accent); font-family:'Rajdhani',sans-serif; letter-spacing:1px; font-size:12px; text-transform:uppercase; font-weight:700; background:var(--surface)">Год</th>
+            <th style="text-align:left; padding:12px 16px; color:var(--accent); font-family:'Rajdhani',sans-serif; letter-spacing:1px; font-size:12px; text-transform:uppercase; font-weight:700; background:var(--surface)">Тип</th>
+            <th style="text-align:left; padding:12px 16px; color:var(--accent); font-family:'Rajdhani',sans-serif; letter-spacing:1px; font-size:12px; text-transform:uppercase; font-weight:700; background:var(--surface)">Ущерб</th>
+            <th style="text-align:left; padding:12px 16px; color:var(--accent); font-family:'Rajdhani',sans-serif; letter-spacing:1px; font-size:12px; text-transform:uppercase; font-weight:700; background:var(--surface)">Метод</th>
+            <th style="text-align:left; padding:12px 16px; color:var(--accent); font-family:'Rajdhani',sans-serif; letter-spacing:1px; font-size:12px; text-transform:uppercase; font-weight:700; background:var(--surface)">Урок</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr style="border-bottom:1px solid var(--border); transition:background .15s" onmouseover="this.style.background='rgba(0,229,255,0.03)'" onmouseout="this.style.background=''">
+            <td style="padding:13px 16px; color:#fff; font-weight:700; font-family:'Rajdhani',sans-serif; font-size:15px">WannaCry</td>
+            <td style="padding:13px 16px; color:var(--muted); font-family:'Share Tech Mono',monospace; font-size:13px">2017</td>
+            <td style="padding:13px 16px; color:var(--muted)">Ransomware</td>
+            <td style="padding:13px 16px; color:var(--accent); font-family:'Share Tech Mono',monospace; font-size:13px; text-shadow:0 0 10px var(--accent)">$4 млрд</td>
+            <td style="padding:13px 16px; color:var(--muted)">Уязвимость Windows (нет патча)</td>
+            <td style="padding:13px 16px; color:var(--accent2)">Обновляйте ПО</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border); transition:background .15s" onmouseover="this.style.background='rgba(0,229,255,0.03)'" onmouseout="this.style.background=''">
+            <td style="padding:13px 16px; color:#fff; font-weight:700; font-family:'Rajdhani',sans-serif; font-size:15px">NotPetya</td>
+            <td style="padding:13px 16px; color:var(--muted); font-family:'Share Tech Mono',monospace; font-size:13px">2017</td>
+            <td style="padding:13px 16px; color:var(--muted)">Уничтожение данных</td>
+            <td style="padding:13px 16px; color:var(--accent); font-family:'Share Tech Mono',monospace; font-size:13px; text-shadow:0 0 10px var(--accent)">$10 млрд</td>
+            <td style="padding:13px 16px; color:var(--muted)">Поддельное обновление M.E.Doc</td>
+            <td style="padding:13px 16px; color:var(--accent2)">Контроль поставщиков</td>
+          </tr>
+          <tr style="border-bottom:1px solid var(--border); transition:background .15s" onmouseover="this.style.background='rgba(0,229,255,0.03)'" onmouseout="this.style.background=''">
+            <td style="padding:13px 16px; color:#fff; font-weight:700; font-family:'Rajdhani',sans-serif; font-size:15px">SolarWinds</td>
+            <td style="padding:13px 16px; color:var(--muted); font-family:'Share Tech Mono',monospace; font-size:13px">2020</td>
+            <td style="padding:13px 16px; color:var(--muted)">Шпионаж (supply chain)</td>
+            <td style="padding:13px 16px; color:var(--accent); font-family:'Share Tech Mono',monospace; font-size:13px; text-shadow:0 0 10px var(--accent)">Не оценён</td>
+            <td style="padding:13px 16px; color:var(--muted)">Вредоносное обновление Orion</td>
+            <td style="padding:13px 16px; color:var(--accent2)">Аудит поставщиков</td>
+          </tr>
+          <tr style="transition:background .15s" onmouseover="this.style.background='rgba(0,229,255,0.03)'" onmouseout="this.style.background=''">
+            <td style="padding:13px 16px; color:#fff; font-weight:700; font-family:'Rajdhani',sans-serif; font-size:15px">Colonial Pipeline</td>
+            <td style="padding:13px 16px; color:var(--muted); font-family:'Share Tech Mono',monospace; font-size:13px">2021</td>
+            <td style="padding:13px 16px; color:var(--muted)">Ransomware</td>
+            <td style="padding:13px 16px; color:var(--accent); font-family:'Share Tech Mono',monospace; font-size:13px; text-shadow:0 0 10px var(--accent)">$4,4 млн выкуп</td>
+            <td style="padding:13px 16px; color:var(--muted)">VPN-пароль без 2FA</td>
+            <td style="padding:13px 16px; color:var(--accent2)">2FA везде</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
 <!-- QUIZ -->
 <div class="page" id="page-quiz">
   <div class="quiz-container">
@@ -649,5 +835,4 @@ loadQuestion();
 </script>
 </body>
 </html>
-
 
